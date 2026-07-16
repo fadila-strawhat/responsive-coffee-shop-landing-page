@@ -6,6 +6,23 @@ body{
     color:#c89b63;
 }
 
+.navbar-toggler {
+    border: 1px solid #c89b63;
+    padding: .35rem .55rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 .2rem rgba(200, 155, 99, 0.25);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28200, 155, 99, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 .nav-link{
     color: white !important;
     transition: color 0.3s;
@@ -166,6 +183,18 @@ body{
 }
 
 @media (max-width: 991px){
+    .navbar-collapse {
+        margin-top: 12px;
+        padding: 12px 16px;
+        border: 1px solid #2f2f2f;
+        border-radius: 10px;
+        background: #171717;
+    }
+
+    .navbar-nav {
+        gap: 6px;
+    }
+
     .about-hero{
         padding-top:28px;
     }
