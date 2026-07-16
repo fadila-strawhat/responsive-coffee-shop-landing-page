@@ -7,11 +7,16 @@ body{
 }
 
 .navbar-toggler {
-    border: 1px solid #c89b63;
+    border: 1px solid #c89b63 !important;
     padding: .35rem .55rem;
+    color: #c89b63;
 }
 
+.navbar-toggler:hover,
 .navbar-toggler:focus {
+    border-color: #c89b63 !important;
+    outline: 2px solid #c89b63;
+    outline-offset: 2px;
     box-shadow: 0 0 0 .2rem rgba(200, 155, 99, 0.25);
 }
 
