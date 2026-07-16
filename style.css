@@ -7,20 +7,29 @@ body{
 }
 
 .navbar-toggler {
-    border: 1px solid #c89b63 !important;
-    padding: .35rem .55rem;
+    border: 2px solid #c89b63 !important;
+    border-radius: 6px;
+    padding: .45rem .6rem;
     color: #c89b63;
+    background-color: rgba(200, 155, 99, 0.06);
+    box-shadow: 0 0 0 2px rgba(200, 155, 99, 0.12);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar-toggler:hover,
-.navbar-toggler:focus {
+.navbar-toggler:focus,
+.navbar-toggler:active {
     border-color: #c89b63 !important;
     outline: 2px solid #c89b63;
     outline-offset: 2px;
-    box-shadow: 0 0 0 .2rem rgba(200, 155, 99, 0.25);
+    box-shadow: 0 0 0 3px rgba(200, 155, 99, 0.2);
 }
 
 .navbar-toggler-icon {
+    width: 1.2rem;
+    height: 1.2rem;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28200, 155, 99, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
